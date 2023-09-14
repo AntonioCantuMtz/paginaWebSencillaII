@@ -5,15 +5,14 @@
 }
 
 body {
-    font-family: 'Lato & subset', arial;
+    font-family: Lato, arial;
     background: #000 url(../img/fondo.png);
     background-size: cover; /*Esto hace que la imagen de fondo no se repita*/
     background-attachment: fixed; /*Hace que la imagen no crezca y se adapte al tamaño de la pantalla*/
 }
 
 .contenedor {
-    /* margin: auto; */
-    margin: 20px; 
+    margin: auto; /*Para centrar el contenido*/
     width: 90%;
     max-width: 1000px;
     /* Flexbox */
@@ -25,7 +24,7 @@ body {
 
 header {
     width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,7 +39,7 @@ header .logo {
 header .logo img {
     width: 110px;
     height: 100px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 header .logo p {
@@ -108,8 +107,28 @@ aside .ad {
     /* margin-bottom: 20px ; */
 }
 
+footer {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
 
+footer .redes-sociales a:hover {
+    text-decoration: none;
+}
 
 
 
