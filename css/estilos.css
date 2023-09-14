@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato & subset', arial;
+    background: #000 url(../img/fondo.png);
+    background-size: cover; /*Esto hace que la imagen de fondo no se repita*/
+    background-attachment: fixed; /*Hace que la imagen no crezca y se adapte al tamaño de la pantalla*/
+}
+
+.contenedor {
+    /* margin: auto; */
+    margin: 20px; 
+    width: 90%;
+    max-width: 1000px;
+}
+
+header {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo img {
+    width: 110px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+header .logo p {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 25px;
+    padding: 50px 0px;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
